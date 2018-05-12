@@ -21,17 +21,17 @@ public class OkiyaAnsLab3 {
       Grouped grp = new Grouped();
       
       do {
-	      	System.out.println();
-	  			System.out.println("********************************");
+	  System.out.println();
+	  System.out.println("********************************");
           System.out.println("**** DESCRIPTIVE STATISTICS ****");
-	  			System.out.println("********************************");
+	  System.out.println("********************************");
           System.out.println();
           System.out.println("[1] Ungrouped");
           System.out.println("[2] Grouped");
           System.out.println("[3] Quit");
           System.out.println("********************************");          
           do {
-          		System.out.println();
+         	System.out.println();
             	System.out.println("Choose the data you want to measure the central tendency with.");
               try {
                   choice = input.nextInt();
@@ -70,13 +70,13 @@ public class OkiyaAnsLab3 {
           switch(choice) {
               case 1:
                   do {
-	                  	System.out.println();
+	                    System.out.println();
 	                    System.out.println("********************************");
 	                    System.out.println("Enter the total number of data.");
                       try{
                           size = input.nextInt();
                       } catch(InputMismatchException e) {
-                      		size = -1;
+                      	  size = -1;
                           System.out.println("Invalid input! Please try again.");
                       }
                       input.nextLine();
@@ -229,8 +229,8 @@ public class OkiyaAnsLab3 {
                   System.out.println("********************************");                    
                   
                   do {
-                  		System.out.println();
-                  		System.out.println("What measurement to do you want to use? > ");
+			System.out.println();
+			System.out.println("What measurement to do you want to use? > ");
                       try {
                           choice3 = input.nextInt();
                       } catch(InputMismatchException e) {
@@ -309,7 +309,7 @@ public class OkiyaAnsLab3 {
                   System.out.println("********************************");
                   System.out.println("Enter the number of class intervals. > ");
                   do {
-                  		System.out.println();
+			System.out.println();
                       try{
                           interval = input.nextInt();
                       } catch(InputMismatchException e) {
@@ -610,8 +610,8 @@ public class OkiyaAnsLab3 {
                           choice4 = input.nextInt();
                           
                           if(choice4 == 1) {
-                          		do {
-	                          			do {
+				do {
+					do {
 	                                  System.out.println("\n");
 	                                  System.out.println("At what interval? ");
 	                                  System.out.println("> ");
@@ -837,9 +837,9 @@ public class OkiyaAnsLab3 {
 		                                  }    
 		                              }
 	                          			
-	                          			grp.display();
+					grp.display();
 	                          			
-	                          			int edit_choice = -1;
+					int edit_choice = -1;
 	                                System.out.println("\n\n");
 	                                System.out.println("Do you want to edit the data set again?");
 	                                System.out.println("[1] YES \n[2] NO");
@@ -890,8 +890,8 @@ public class OkiyaAnsLab3 {
                   System.out.println("*********************************************");
                   
                   do {
-                  		System.out.println();
-                  		System.out.println("What measurement to do you want to use?");
+			System.out.println();
+			System.out.println("What measurement to do you want to use?");
                       try {
                           choice5 = input.nextInt();
                       } catch(InputMismatchException e) {
