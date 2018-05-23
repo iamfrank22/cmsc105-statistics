@@ -1,5 +1,3 @@
-# cmsc105_stat
-
 # Compilation of Lab Exercises in Statistic for Computer Science (CMSC 105)
 # Three Statistical Methods
 
